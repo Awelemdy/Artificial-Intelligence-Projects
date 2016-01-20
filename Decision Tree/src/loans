@@ -1,0 +1,17 @@
+3
+10
+classes:t=true,f=false
+
+years_known:g=greater_than_five,b=between_one_and_five,l=less_than_one
+own_home:y=yes,n=no
+occupation:e=engineer,s=sales,t=student
+t,g,y,s
+f,g,n,e
+t,g,y,e
+t,b,n,e
+f,b,y,s
+f,b,y,t
+f,l,y,e
+f,l,n,s
+t,b,y,e
+t,g,y,e

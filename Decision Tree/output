@@ -1,0 +1,50 @@
+
+The Decision Tree Built With 8124 Training Samples:
+
+Level 0 Attribute: odor
+At level 1, a=almond, decision: e=edible
+At level 1, l=anise, decision: e=edible
+At level 1, c=creosote, decision: p=poisonous
+At level 1, y=fishy, decision: p=poisonous
+At level 1, f=foul, decision: p=poisonous
+At level 1, m=musty, decision: p=poisonous
+Split tree on n=none
+Level 1 Attribute: spore-print-color
+At level 2, k=black, decision: e=edible
+At level 2, n=brown, decision: e=edible
+At level 2, b=buff, decision: e=edible
+At level 2, h=chocolate, decision: e=edible
+At level 2, r=green, decision: p=poisonous
+At level 2, o=orange, decision: e=edible
+At level 2, u=purple, decision: undetermined
+Split tree on w=white
+Level 2 Attribute: habitat
+At level 3, g=grasses, decision: e=edible
+Split tree on l=leaves
+Level 3 Attribute: cap-color
+At level 4, n=brown, decision: e=edible
+At level 4, b=buff, decision: undetermined
+At level 4, c=cinnamon, decision: e=edible
+At level 4, g=gray, decision: undetermined
+At level 4, r=green, decision: undetermined
+At level 4, p=pink, decision: undetermined
+At level 4, u=purple, decision: undetermined
+At level 4, e=red, decision: undetermined
+At level 4, w=white, decision: p=poisonous
+At level 4, y=yellow, decision: p=poisonous
+At level 3, m=meadows, decision: undetermined
+At level 3, p=paths, decision: e=edible
+At level 3, u=urban, decision: undetermined
+At level 3, w=waste, decision: e=edible
+Split tree on d=woods
+Level 3 Attribute: gill-size
+At level 4, b=broad, decision: e=edible
+At level 4, n=narrow, decision: p=poisonous
+At level 2, y=yellow, decision: e=edible
+At level 1, p=pungent, decision: p=poisonous
+At level 1, s=spicy, decision: p=poisonous
+
+Classification Results On 8124 Test Samples:
+
+Number of correct classifications: 8124
+Number of incorrect classifications: 0
